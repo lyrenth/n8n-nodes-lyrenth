@@ -1,0 +1,65 @@
+{
+  "name": "n8n-nodes-lyrenth",
+  "version": "0.1.0",
+  "description": "Read any public web page as a clean AIDocument through Lyrenth: Markdown, page structure and provenance, ready for your n8n workflows.",
+  "license": "MIT",
+  "homepage": "https://lyrenth.com",
+  "keywords": [
+    "n8n-community-node-package",
+    "n8n",
+    "lyrenth",
+    "aidocument",
+    "web",
+    "reader",
+    "markdown",
+    "scraping",
+    "rag",
+    "agent"
+  ],
+  "author": {
+    "name": "Aleksma AI, Inc.",
+    "email": "hello@lyrenth.com",
+    "url": "https://lyrenth.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyrenth/n8n-nodes-lyrenth.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lyrenth/n8n-nodes-lyrenth/issues"
+  },
+  "engines": {
+    "node": ">=20.19"
+  },
+  "scripts": {
+    "build": "n8n-node build",
+    "dev": "n8n-node dev",
+    "lint": "n8n-node lint",
+    "lint:fix": "n8n-node lint --fix",
+    "typecheck": "tsc --noEmit",
+    "release": "n8n-node release",
+    "prepublishOnly": "n8n-node prerelease"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "strict": true,
+    "credentials": [
+      "dist/credentials/LyrenthApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/Lyrenth/Lyrenth.node.js"
+    ]
+  },
+  "devDependencies": {
+    "@n8n/node-cli": "^0.49.1",
+    "eslint": "9.32.0",
+    "prettier": "3.6.2",
+    "typescript": "5.9.2"
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  }
+}

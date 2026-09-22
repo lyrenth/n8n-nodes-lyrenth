@@ -1,0 +1,18 @@
+{
+	"node": "n8n-nodes-lyrenth.lyrenth",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Data & Storage", "Development"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://lyrenth.com/docs/quickstart"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://lyrenth.com/docs/api"
+			}
+		]
+	}
+}

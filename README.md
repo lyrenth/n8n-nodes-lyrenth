@@ -1,8 +1,7 @@
 # n8n-nodes-lyrenth
 
 Read any public web page as a clean **AIDocument** inside n8n, powered by
-[Lyrenth](https://lyrenth.com): an index of over 4 billion pages built for AI
-agents.
+[Lyrenth](https://lyrenth.com): a web index built for AI agents.
 
 Point the node at a URL and it hands the next step the page itself: the
 Markdown body with navigation, cookie bars and boilerplate stripped, plus the

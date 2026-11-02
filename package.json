@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-lyrenth",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Read any public web page as a clean AIDocument through Lyrenth: Markdown, page structure and provenance, ready for your n8n workflows.",
   "license": "MIT",
   "homepage": "https://lyrenth.com",
